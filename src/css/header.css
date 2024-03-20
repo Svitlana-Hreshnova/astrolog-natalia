@@ -1,0 +1,117 @@
+.header-page {
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 2;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2.5px solid #fff;;
+}
+
+.header-logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+    transform: scale(1.1);
+}
+
+.header-list {
+    display: none;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--mainText);
+    transition: color 0.3s ease-in-out;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--purple);
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.burger-menu {
+    fill: var(--mainText);
+    transition: fill 0.3s ease-in-out;
+}
+
+.burger-menu:hover,
+.burger-menu:focus {
+    fill: var(--purple);
+}
+
+.header-btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: var(--mainText);
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--purple);
+    color: var(--mainText);
+}
+
+@media screen and (min-width: 768px) {
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+        .header-btn {
+            display: flex;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .header-link {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .header-list {
+        gap: 50px;
+    }
+
+        .header-btn {
+            width: 140px;
+            height: 45px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+}

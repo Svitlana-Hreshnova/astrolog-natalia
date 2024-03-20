@@ -4,17 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Астролог Наталья</title>
-  <link rel="stylesheet" href="./index.css" />
+  <title>Астролог</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css" />
   <script type="module" src="./index.js"></script>
 </head>
 
 <body>
-  <h1></h1>
-
-  <include src="./partials/example.html"></include>
+  <include src="./partials/header.html"></include>
+  <main>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/services.html"></include>
+    <include src="./partials/consultation.html"></include>
+    <include src="./partials/reviews.html"></include>
+  </main>
+  <include src="./partials/footer.html"></include>
 </body>
 
 </html>

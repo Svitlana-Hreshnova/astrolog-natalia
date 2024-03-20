@@ -1,0 +1,77 @@
+body {
+    font-family: "El Messiri", sans-serif;
+    color: #fff;
+    background-color: rgb(146, 93, 206);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.179)), url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    font-family: inherit;
+    outline: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    color: currentColor;
+    border: none;
+}
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 428px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
