@@ -1,10 +1,15 @@
 body {
     font-family: "El Messiri", sans-serif;
     color: #fff;
-    background-color: rgb(146, 93, 206);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.179)), url('../images/background.png');
+    background-color: rgb(92, 60, 130);
+    
+}
+
+.background  {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.180), rgba(0, 0, 0, 0.180)), url('../images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    min-width: 320px;
 }
 
 input {
