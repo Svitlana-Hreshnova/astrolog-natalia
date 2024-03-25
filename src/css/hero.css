@@ -4,7 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
-    padding: 260px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title {
@@ -46,10 +48,36 @@
     .hero-page {
         height: 800px;
     }
+
+.hero-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.hero-btn {
+    font-size: 40px;
+    width: 260px;
+    height: 70px;
+    border-radius: 40px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
     .hero-page {
         height: 900px;
     }
+
+        .hero-title {
+            font-size: 50px;
+            margin-bottom: 60px;
+        }
+
+.hero-btn {
+    font-size: 50px;
+    width: 310px;
+    height: 80px;
+    border-radius: 50px;
+}
+
 }
